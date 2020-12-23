@@ -1,0 +1,133 @@
+ #logo
+  {
+    width: 22%;
+    margin-left: 20%;
+  }
+  body{
+    background: linear-gradient(to left, rgba(255, 153, 102,0.95), rgb(255, 94, 98,0.85));  }
+  .header
+  {
+    display: inline;
+    margin-left: 2%;
+  }
+
+  #button3
+  {
+    display:inline-block;
+    padding:1%;
+    margin:2% 2%;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#e62e00;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: large;
+    }
+    #button3:hover{
+    background-color:#f35f4b;
+    }
+    .bg-modal
+    {
+      width: 100%;
+      height:100%;
+      background-color: rgba(0,0,0,0.7);
+      position: absolute;
+      top:0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+    }
+    .modal-content
+    {
+      margin: auto;
+      width:500px;
+      background-color: #eeeeee;
+      background-image: linear-gradient(315deg, #eeeeee 0%, #ec4534 74%);
+      text-align: center;
+      padding: 5%;
+      position: relative;
+      float: left;
+      color: white;
+      
+    }
+    input
+    {
+      color: black;
+    }
+    #myDate
+    {
+      padding-left: 38px;
+    }
+    #Department
+    {
+    padding-right: 29px;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-bottom: 10px;
+    color: black;
+
+    }
+    .close
+    {
+      position: absolute;
+      top: 0;
+      right: 14px;
+      font-size: 42px;
+      transform: rotate(45deg);
+    }
+    .bt
+    {
+    padding:2%;
+    margin:8%;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#e62e00;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: medium;
+    }
+    .bt:hover{
+      background-color:#f1afa6;
+    }
+    .in
+    {
+      margin: 2% ;
+      padding: 10px;
+      font-family:'Roboto',sans-serif;
+      font-weight:300;
+    }
+  
+
+    .table
+    {
+    background-color:white;
+    width: 98%;
+    margin: auto;
+    margin-top: 3%;
+    font-family:'Roboto',sans-serif;
+    font-size: larger;
+    box-sizing: border-box;
+    background-position: center;
+   height: 60%;
+    }
+    th
+    {
+      background-color:#e44a23;
+      color: white;
+    }
+    #X
+    {
+      color: red;
+    }
+    
+
+    
